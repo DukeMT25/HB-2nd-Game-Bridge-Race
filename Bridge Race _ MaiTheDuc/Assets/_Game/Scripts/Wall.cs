@@ -30,7 +30,7 @@ public class Wall : MonoBehaviour
             ConstrainPlayerMove(CalculateRelativePosition(player), player, true);
         }
 
-        player.CanMoveForward = true; 
+        player.CanMoveForward = true;
         player.CanMoveBackward = true;
         player.CanMoveLeft = true;
         player.CanMoveRight = true;

@@ -41,6 +41,12 @@ public class BridgeController : MonoBehaviour
         
     }
 
+    //private void OnTriggerExit(Collider other)
+    //{
+    //    PlayerController _pCon = other.GetComponent<PlayerController>();
+    //    _pCon.CanMoveForward = true;
+    //}
+
     public void DestroyStack(Collider other, int count, Character comp)
     {
         BrickController[] gameObject = other.gameObject.GetComponentsInChildren<BrickController>();
@@ -69,6 +75,10 @@ public class BridgeController : MonoBehaviour
                     DestroyStack(other, _pCon.BrickList.Count, _pCon);
                     GetComponent<MeshRenderer>().material = _pMat;
                 }
+            }
+            else if (type == _pCon._BrickType)
+            {
+                _pCon.CanMoveForward = true;
             }
             else
             {

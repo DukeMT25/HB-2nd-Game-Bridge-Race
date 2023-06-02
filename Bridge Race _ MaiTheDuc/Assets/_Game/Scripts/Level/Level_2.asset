@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 685fb18fbc539004f887318d60c776cf, type: 3}
   m_Name: Level_2
   m_EditorClassIdentifier: 
-  levelPrefab: {fileID: 315926776770431585, guid: 3ba30689765a3144d9b3c216d8b16a08, type: 3}
+  levelPrefab: {fileID: 6201519142224538242, guid: 3ba30689765a3144d9b3c216d8b16a08, type: 3}
   startPositionStageOne: {x: -9, y: 0.6, z: -6}
   startPositionStageTwo: {x: -9, y: 3.6, z: 29}
   startPositionStageTree: {x: -6, y: 6, z: 60}
